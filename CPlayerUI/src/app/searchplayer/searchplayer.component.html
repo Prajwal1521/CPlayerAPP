@@ -1,0 +1,14 @@
+<!-- <p>searchplayer works!</p> -->
+<div *ngIf="!loggedIn"><app-header></app-header></div>
+<div *ngIf="!notLogged"><app-after-login-header></app-after-login-header></div>
+<mat-form-field class="field" appearance="outline">
+  <mat-label class="label">Find Player</mat-label>
+  <input (keyup)="onKey($event)" matInput class="input">
+</mat-form-field>
+
+<div class="container">
+  <app-playerlist *ngFor='let cplayer of cplayers' [cplayer]=cplayer (addToFavoriteList)=addToFavoriteList($event) (addToRecommendedList)=addToRecommendedList($event)>
+  </app-playerlist>
+</div>
+
+

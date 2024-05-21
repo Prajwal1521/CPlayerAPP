@@ -1,0 +1,51 @@
+/* done */
+.image {
+  height: 30vh;
+  width: 20vw;
+  margin: auto;
+  margin-bottom: 15px;
+
+
+}
+.close1{
+  text-align: center;
+  margin-left: auto;
+  align-items: center;
+  margin-right: auto;
+  font-family: "Calisto MT"
+}
+.example-card{
+  /* margin-top: 110px; */
+  background-color:hsl(197, 87%, 55%);
+}
+ table, th, td {
+  border: 1px solid black;
+}
+ /* table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+} */
+
+th {
+  /* font-family: "Bodoni MT" */
+ font-family: "Calisto MT"
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.c1{
+ margin-left: 270px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<app-after-login-header></app-after-login-header>
+<div id="test">
+    <div class="login-box">
+      <img src="assets\img\avatar.png" class="avatar">
+      <form class="login-form" #userForm="ngForm">
+        <h2>Login Here</h2>
+          <input type="text" id="username" class="matInputdata" matInput [(ngModel)]="user.username"
+          name="username" (keydown.space)="$event.preventDefault();" required minlength="4" #username="ngModel" placeholder="Enter Username Here">
+
+
+          <input placeholder="Enter Password Here" type="password" id="password" class="matInputdata" matInput [(ngModel)]="user.password"
+          name="password" (keydown.space)="$event.preventDefault();"
+          required minlength="6" #password="ngModel">
+
+
+        <div class="btn-group2" style="float: center">
+          <button   class="login-click" mat-raised-button color="primary" class="btnn" (click)="login()">
+            Login
+          </button>
+        </div>
+
+        <p class="link">Don't have an account<br>
+          <a href="/register">Sign up </a> here</p>
+      </form>
+
+
+  <div style="text-align: center;color: red;" >{{disp_msg}}</div>
+
+
+</div>
+
+
+
+
+
+

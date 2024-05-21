@@ -1,0 +1,84 @@
+/* done */
+
+
+.example-card{
+  display:inline-flex;
+  flex-direction: column;
+  height: 38vh;
+  width: 30vw;
+  margin: 1em;
+  text-align: center;
+  /* background-color:burlywood; */
+  margin-top: 10vh;
+  /* background-color:#b2bfc4; */
+  /* background-color:#22db4a; */
+  background-color:#080808;
+  margin-bottom: 5px;
+  font-family: "Calisto MT";
+  color: whitesmoke;
+}
+
+
+.detailbutton{
+  width:180px;
+  align-items: center;
+  /* margin:auto; */
+
+}
+
+
+
+
+.btn-group2 button{
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: hsla(0, 73%, 97%, 0.877);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+ margin-bottom: 2px;
+
+
+}
+
+.btn-group2 button:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-group2 button:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-group3 button{
+  float: center;
+  background-color: #04AA6D;
+  border: 1px solid green;margin-top: 4px;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+
+
+.btn-group22 button{
+  float: center;
+  background-color: hsl(328, 100%, 54%);
+  border: 1px solid black;
+  color: #eee5e5;margin-top: 4px;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+
+
